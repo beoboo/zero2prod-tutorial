@@ -2,4 +2,5 @@ mod configuration;
 mod routes;
 mod startup;
 
-pub use crate::startup::run;
+pub use startup::run;
+pub use configuration::get_configuration;
