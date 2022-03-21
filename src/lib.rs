@@ -1,6 +1,4 @@
-mod configuration;
+pub mod configuration;
 mod routes;
-mod startup;
-
-pub use configuration::*;
-pub use startup::run;
+pub mod startup;
+pub mod telemetry;
