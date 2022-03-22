@@ -29,6 +29,8 @@ then
     -p "${DB_PORT}":5432 \
     -d postgres \
     postgres -N 1000
+else
+  echo "Skipped docker"
 fi
 
 export PGPASSWORD="$DB_PASSWORD"
